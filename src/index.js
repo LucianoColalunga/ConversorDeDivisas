@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         fetch("https://v6.exchangerate-api.com/v6/7915c2bad639d7babe825060/latest/USD")
             .then(respuesta => respuesta.json())
-            .then(respuestasJSON => {                
+            .then(respuestasJSON => {
                 $('h1').text(`Cambios del dia ${respuestasJSON.time_last_update_utc} en base ${respuestasJSON.base_code}`);
 
                 $("#lista").empty();
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 })
 
-    
+
 
 
 
