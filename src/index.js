@@ -1,3 +1,5 @@
+
+///reference types="Cypress"/>
 /// < reference types="jquery" />
 //key - "7915c2bad639d7babe825060";
 
